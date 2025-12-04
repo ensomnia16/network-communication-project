@@ -35,15 +35,17 @@ Host A: Data → Bit Stream → Modulation → Analog Signal → Cable → Analo
 ### Level 2: Multi-Host Communication (30 points)
 
 **Scenario**: N hosts in the same network. You need to use switches or routers for multi-user communication, instead of N(N-1) direct connections (full mesh topology).
-    - **Topology**: Use a Star Topology where all hosts connect to a central Switch/Router. Do not use a Full Mesh topology where every host has a direct cable to every other host.
-    - **Forwarding**: The central device (Switch/Router) must receive signals from a source host and forward them to the intended destination host based on the addressing scheme you design.
+
+**Topology**: Use a Star Topology where all hosts connect to a central Switch/Router. Do not use a Full Mesh topology where every host has a direct cable to every other host.
+
+**Forwarding**: The central device (Switch/Router) must receive signals from a source host and forward them to the intended destination host based on the addressing scheme you design.
 
 **Requirements**:
 
 1. Based on Level 1, design a mechanism to distinguish different hosts
 2. Implement addressing mechanism (how to specify target host)
 3. Implement routing/forwarding mechanism (how messages reach their destination)
-4. Handle simultaneous transmissions from multiple hosts
+4. Handle simultaneous transmissions from multiple hosts. This means the central device can handle multiple access. As a counterpart, a central device with inability of mutiple access will disgard all messages received from other hosts (or ignore it), when it is processing message from specific host. The concurrency processing can be assumed as a part of **Extension Feature.**
 
 **Grading Criteria**:
 
@@ -86,6 +88,11 @@ Choose from the following features to implement (can select multiple):
 - Use wireless channel (instead of cable).
 - MIMO.
 - Precoding & combining (beamforming).
+
+#### Concunrrency (10 points)
+
+- Concurrency means your network can handle massive access and data transmission. Messages won't blcok each other.
+- You should use multiple threads to do this
 
 ## Provided Tools
 
