@@ -34,7 +34,9 @@ Host A: Data → Bit Stream → Modulation → Analog Signal → Cable → Analo
 
 ### Level 2: Multi-Host Communication (30 points)
 
-**Scenario**: N hosts connected to the same channel
+**Scenario**: N hosts in the same network. You need to use switches or routers for multi-user communication, instead of N(N-1) direct connections (full mesh topology).
+    - **Topology**: Use a Star Topology where all hosts connect to a central Switch/Router. Do not use a Full Mesh topology where every host has a direct cable to every other host.
+    - **Forwarding**: The central device (Switch/Router) must receive signals from a source host and forward them to the intended destination host based on the addressing scheme you design.
 
 **Requirements**:
 
