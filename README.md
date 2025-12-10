@@ -27,7 +27,7 @@ Host A: Data → Bit Stream → Modulation → Analog Signal → Cable → Analo
 **Grading Criteria**:
 
 - Successfully transmit simple strings (15 points)
-- Handle longer messages (5 points)
+- Handle longer messages (5 points). This means your protocol supports **slicing**, i.e., to slice a packet into mutiple packets, and compose them into one packet.
 - Basic error detection mechanism (10 points)
 
 ---
