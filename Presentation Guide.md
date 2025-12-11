@@ -1,6 +1,6 @@
 # Final Project Presentation Guide
 
-这份指南旨在帮助大家准备 Final Project 的展示。根据 `README.md` 中的评分标准，你的展示应该涵盖以下关键部分，以确保能够展示出你们在各个 Level 中的工作成果。
+这份指南旨在帮助大家准备 Final Project 的展示。根据 `README.md` 中的评分标准，你的展示应该涵盖以下关键部分，以确保能够展示出你们在各个 Level 中的工作成果。我们推荐你的Presentation至少包括以下部分：
 
 ## 项目概览 (Project Overview)
 
