@@ -1,5 +1,11 @@
 # Data Communication and Networks - Course Project
 
+Final Project截止日期：12.18 14:00。注意无论你的答辩时间是15周还是16周，截止日期都是12.18. 
+
+你需要上传 代码、展示用的PPT和其他材料至BB。
+
+Final Project需要撰写报告，报告截止时间：12.28 23:59。
+
 ## Presentation Guide
 
 你的展示应该涵盖以下关键部分，以确保能够展示出你们在各个 Level 中的工作成果。
